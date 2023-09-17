@@ -1,0 +1,45 @@
+.registerIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 143.5px);
+  border-radius: var(--br-base);
+  width: 287px;
+  height: 295px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.dharmeesh {
+  position: absolute;
+  top: 261px;
+  left: calc(50% - 49.5px);
+  font-weight: 600;
+}
+.aBlindMan,
+.seeDetails {
+  position: absolute;
+  top: 293px;
+  left: calc(50% - 94.5px);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--white-shades-white-shades-2);
+}
+.seeDetails {
+  top: 395px;
+  left: calc(50% - 41.5px);
+  font-size: var(--body-r-h4-size);
+  color: var(--grey-shades-grey-shades);
+}
+.register {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-blue-shades-dark-blue-shades);
+  box-shadow: 0 4px 44px rgba(143, 143, 143, 0.17);
+  width: 287px;
+  height: 437px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--body-r-h3-size);
+  color: var(--white-shades-white-shades);
+  font-family: var(--body-r-h3);
+}

@@ -1,0 +1,14 @@
+.menu {
+  position: relative;
+}
+.menudefault {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-r-h3-size);
+  color: var(--white-shades-white-shades-4);
+  font-family: var(--body-r-h3);
+}

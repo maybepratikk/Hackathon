@@ -1,0 +1,76 @@
+.mvpsOfThe {
+  position: relative;
+  font-weight: 500;
+}
+.mvpsOfTheMonthWrapper {
+  border-radius: var(--br-13xl);
+  border: 1.5px solid var(--grey-shades-grey-shades-4);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.checkOutThe {
+  position: relative;
+  font-weight: 600;
+}
+.getInspiredBy {
+  position: relative;
+  font-size: var(--body-r-h2-size);
+  color: var(--grey-shades-grey-shades-3);
+  text-align: center;
+}
+.frameContainer,
+.registerParent,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  gap: var(--gap-mid);
+  font-size: var(--sub-h-h2-size);
+  color: var(--black-shades-black-shades);
+}
+.frameContainer,
+.registerParent {
+  gap: var(--gap-xs);
+}
+.registerParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-78xl);
+  text-align: center;
+  font-size: var(--body-r-h3-size);
+  color: var(--white-shades-white-shades);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-53xl);
+}
+.frameParent {
+  position: absolute;
+  top: calc(50% - 378px);
+  left: calc(50% - 528px);
+  justify-content: flex-end;
+  gap: var(--gap-29xl);
+}
+.guideForStudents {
+  position: absolute;
+  top: 6645px;
+  left: 0;
+  background-color: var(--white-shades-white-shades);
+  width: 100%;
+  height: 901px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-r-h4-size);
+  color: var(--grey-shades-grey-shades-5);
+  font-family: var(--body-r-h3);
+}

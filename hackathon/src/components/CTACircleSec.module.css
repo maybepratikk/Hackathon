@@ -1,0 +1,18 @@
+.value {
+  position: relative;
+  font-weight: 500;
+}
+.ctacircleSec {
+  border-radius: var(--br-13xl);
+  border: 1.5px solid var(--blue-shades-blueish-shades);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-25xl);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-r-h3-size);
+  color: var(--blue-shades-blueish-shades);
+  font-family: var(--body-r-h3);
+  
+}

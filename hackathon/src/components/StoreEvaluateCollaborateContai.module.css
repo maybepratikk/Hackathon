@@ -1,0 +1,64 @@
+.storeEvaluateAnd {
+  color: var(--color-gray-300);
+}
+.collaborate {
+  color: var(--dark-blue-shades-dark-blue-shades);
+}
+.onePlace {
+  text-decoration: underline;
+}
+.signUp,
+.storeEvaluateAndContainer {
+  position: relative;
+  display: inline-block;
+}
+.storeEvaluateAndContainer {
+  line-height: 72px;
+  width: 610px;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--body-r-h3-size);
+  font-weight: 500;
+  font-family: var(--body-r-h3);
+  color: var(--white-shades-white-shades-4);
+  text-align: left;
+}
+.ctas,
+.heroSectionTextAndCta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.heroSectionTextAndCta {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.seoAnalyticsTeamRafiki1 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroSectionText {
+  position: absolute;
+  top: 118px;
+  left: calc(50% - 607px);
+  width: 1218px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-94xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-300);
+  font-family: var(--body-r-h3);
+}

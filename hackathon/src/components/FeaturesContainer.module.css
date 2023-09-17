@@ -1,0 +1,90 @@
+.features1 {
+  position: relative;
+  font-weight: 600;
+}
+.teacherStudentRafiki1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180.31px;
+  height: 180.31px;
+  overflow: hidden;
+}
+.maintainingStudentGuideRati {
+  position: absolute;
+  top: 198.62px;
+  left: calc(50% - 69.73px);
+  font-weight: 600;
+  display: inline-block;
+  width: 151.43px;
+}
+.pialgrism,
+.studentGuide {
+  position: relative;
+  width: 180.31px;
+  height: 257.78px;
+}
+.pialgrism {
+  position: absolute;
+  top: 80.29px;
+  left: 0;
+  border-radius: 11.27px;
+  background-color: var(--dark-blue-shades-dark-blue-shades);
+  box-shadow: 0 2.112987518310547px 30.99px rgba(123, 123, 123, 0.11);
+  height: 177.49px;
+  overflow: hidden;
+  opacity: 0.05;
+}
+.detectPlagiarismEasily {
+  margin: 0;
+}
+.detectPlagiarismEasilyContainer {
+  position: absolute;
+  top: 198.62px;
+  left: calc(50% - 76.07px);
+  font-weight: 600;
+  display: inline-block;
+  width: 151.43px;
+}
+.frameParent,
+.studentGuideParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.studentGuideParent {
+  flex-direction: row;
+  gap: var(--gap-78xl-2);
+}
+.frameParent {
+  flex-direction: column;
+  gap: 36.63px;
+  text-align: center;
+  font-size: 12.68px;
+  color: var(--black-shades-black-shades-7);
+}
+.features,
+.featuresParent {
+  position: absolute;
+  height: 766.31px;
+}
+.featuresParent {
+  top: 0;
+  left: calc(50% - 505.71px);
+  display: flex;
+  flex-direction: column;
+  padding: 78.18052673339844px 138.0485076904297px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22.54px;
+}
+.features {
+  top: 994.51px;
+  left: 1.41px;
+  width: 1011.42px;
+  text-align: left;
+  font-size: 25.36px;
+  color: var(--black-shades-black-shades);
+  font-family: var(--body-r-h3);
+}

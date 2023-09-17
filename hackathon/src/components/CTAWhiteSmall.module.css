@@ -1,0 +1,17 @@
+.value {
+  position: relative;
+  font-weight: 500;
+}
+.ctawhiteSmall {
+  border-radius: var(--br-9xs);
+  background-color: var(--white-shades-white-shades);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-25xl);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-r-h3-size);
+  color: var(--black-shades-black-shades-9);
+  font-family: var(--body-r-h3);
+}

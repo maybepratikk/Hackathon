@@ -1,0 +1,88 @@
+.features1 {
+  position: relative;
+  font-weight: 600;
+}
+.teacherStudentRafiki1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 109.51px;
+  height: 109.51px;
+  overflow: hidden;
+}
+.maintainingStudentGuideRati {
+  position: absolute;
+  top: 120.63px;
+  left: calc(50% - 42.35px);
+  font-weight: 600;
+  display: inline-block;
+  width: 91.97px;
+}
+.pialgrism,
+.studentGuide {
+  position: relative;
+  width: 109.51px;
+  height: 156.57px;
+}
+.pialgrism {
+  position: absolute;
+  top: 48.77px;
+  left: 0;
+  border-radius: 6.84px;
+  background-color: var(--dark-blue-shades-dark-blue-shades);
+  box-shadow: 0 1.2833331823349px 18.82px rgba(123, 123, 123, 0.11);
+  height: 107.8px;
+  overflow: hidden;
+  opacity: 0.05;
+}
+.detectPlagiarismEasily {
+  margin: 0;
+}
+.detectPlagiarismEasilyContainer {
+  position: absolute;
+  top: 120.63px;
+  left: calc(50% - 46.2px);
+  font-weight: 600;
+  display: inline-block;
+  width: 91.97px;
+}
+.frameParent,
+.studentGuideParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 59.03px;
+}
+.frameParent {
+  flex-direction: column;
+  gap: 22.24px;
+  text-align: center;
+  font-size: var(--font-size-5xs-7);
+  color: var(--black-shades-black-shades-7);
+}
+.features,
+.featuresParent {
+  position: absolute;
+  height: 465.42px;
+}
+.featuresParent {
+  top: 0;
+  left: calc(50% - 307.14px);
+  display: flex;
+  flex-direction: column;
+  padding: 47.48332595825195px 83.84443664550781px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13.69px;
+}
+.features {
+  top: 604.02px;
+  left: 0.86px;
+  width: 614.29px;
+  text-align: left;
+  font-size: var(--font-size-base-4);
+  color: var(--black-shades-black-shades);
+  font-family: var(--body-r-h3);
+}

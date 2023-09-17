@@ -1,0 +1,46 @@
+.forStudents {
+  position: relative;
+  font-weight: 500;
+}
+.forStudentsWrapper {
+  border-radius: var(--br-13xl);
+  border: 1px solid var(--white-shades-white-shades-4);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.howToUse {
+  position: relative;
+  font-weight: 600;
+}
+.studentsCanUse {
+  margin: 0;
+}
+.studentsCanUseContainer {
+  position: relative;
+  font-size: var(--body-r-h2-size);
+  color: var(--white-shades-white-shades-4);
+  text-align: center;
+}
+.frameParent,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  font-size: var(--sub-h-h2-size);
+  color: var(--white-shades-white-shades);
+}
+.frameParent {
+  position: absolute;
+  top: 40px;
+  left: calc(50% - 344px);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-r-h4-size);
+  color: var(--white-shades-white-shades-4);
+  font-family: var(--body-r-h3);
+}

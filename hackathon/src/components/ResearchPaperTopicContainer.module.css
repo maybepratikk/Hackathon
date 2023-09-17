@@ -1,0 +1,29 @@
+.problemStatements {
+  text-decoration: underline;
+  color: var(--color-gray-200);
+}
+.checkOutAllContainer {
+  position: relative;
+  line-height: 72px;
+  display: inline-block;
+  width: 683px;
+}
+.checkOutAllTheProblemStatParent,
+.registerCtaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkOutAllTheProblemStatParent {
+  position: absolute;
+  top: calc(50% - 143.5px);
+  left: 113px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white-shades-white-shades);
+  font-family: var(--body-r-h3);
+}
